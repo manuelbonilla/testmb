@@ -1,0 +1,1111 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Line",
+				"LineCollisions"
+			],
+			[
+				"Lis",
+				"list_lines"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"di",
+				"dist"
+			],
+			[
+				"ROS",
+				"ROS_INFO_STREAM"
+			],
+			[
+				"ROs_IN",
+				"ROS_INFO_STREAM"
+			],
+			[
+				"list",
+				"list_lines"
+			],
+			[
+				"tac",
+				"tac_n"
+			],
+			[
+				"Tc",
+				"tbc"
+			],
+			[
+				"tr",
+				"transpose"
+			],
+			[
+				"Lin",
+				"Line"
+			],
+			[
+				"L",
+				"Line"
+			],
+			[
+				"P2",
+				"P2_in"
+			],
+			[
+				"ro",
+				"roll_r"
+			],
+			[
+				"D",
+				"DesperateDemo2"
+			],
+			[
+				"dis",
+				"distance_vector"
+			],
+			[
+				"Vec",
+				"Vector"
+			],
+			[
+				"For",
+				"ForceAndIndex"
+			],
+			[
+				"strin",
+				"string_temp"
+			],
+			[
+				"des",
+				"desired_hand_right_pose_topic_"
+			],
+			[
+				"str",
+				"string_temp"
+			],
+			[
+				"line",
+				"line1"
+			],
+			[
+				"get",
+				"getShortestDistance"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"rig",
+				"right_arm"
+			],
+			[
+				"right",
+				"right_arm"
+			],
+			[
+				"inde",
+				"index_sh"
+			],
+			[
+				"in",
+				"index_sh"
+			],
+			[
+				"id",
+				"id_class"
+			],
+			[
+				"id_",
+				"id_error_msgs"
+			],
+			[
+				"obst",
+				"obstacles"
+			],
+			[
+				"pub_e",
+				"pub_error_id"
+			],
+			[
+				"x_e",
+				"x_err_"
+			],
+			[
+				"error",
+				"error_id"
+			],
+			[
+				"false",
+				"F_table_base_link"
+			],
+			[
+				"k_d",
+				"k_d"
+			],
+			[
+				"ena",
+				"enable_interpolation"
+			],
+			[
+				"T",
+				"Twist"
+			],
+			[
+				"v_",
+				"v_max_robot"
+			],
+			[
+				"x_dot",
+				"x_dot_d"
+			],
+			[
+				"x_",
+				"x_dot_d"
+			],
+			[
+				"Matr",
+				"Matrix"
+			],
+			[
+				"j_",
+				"J_local"
+			],
+			[
+				"J_",
+				"J_local"
+			],
+			[
+				"F_t",
+				"F_table_base"
+			],
+			[
+				"F_",
+				"F_attractive"
+			],
+			[
+				"cha",
+				"chain_tmp"
+			],
+			[
+				"pf_list",
+				"pf_list_of_fk"
+			],
+			[
+				"obsta",
+				"obstacles_topic_right"
+			],
+			[
+				"f",
+				"f"
+			],
+			[
+				"vec",
+				"vect_marker"
+			],
+			[
+				"x_err",
+				"x_err_msg"
+			],
+			[
+				"we",
+				"weights"
+			],
+			[
+				"f_ob",
+				"F_obj_base"
+			],
+			[
+				"poin",
+				"point_pos"
+			],
+			[
+				"pf_li",
+				"pf_list_of_fk"
+			],
+			[
+				"pf",
+				"pf_list_of_chains"
+			],
+			[
+				"Ma",
+				"Matrix"
+			],
+			[
+				"min",
+				"min_distance"
+			],
+			[
+				"force",
+				"force_local_object"
+			],
+			[
+				"dist",
+				"pf_dist_to_obstacles"
+			],
+			[
+				"param",
+				"parameters_"
+			],
+			[
+				"pf_lis",
+				"pf_list_of_links"
+			],
+			[
+				"Controll",
+				"controller"
+			],
+			[
+				"start",
+				"start_controller"
+			],
+			[
+				"star",
+				"startController"
+			],
+			[
+				"despe",
+				"desperate_housewife"
+			],
+			[
+				"desired",
+				"desired_reference_topic"
+			],
+			[
+				"No",
+				"NodeHandle"
+			],
+			[
+				"node",
+				"NodeHandle"
+			],
+			[
+				"my",
+				"my_list_double"
+			],
+			[
+				"KP",
+				"K_P"
+			],
+			[
+				"Ve",
+				"Vector"
+			],
+			[
+				"T_",
+				"T_in"
+			],
+			[
+				"wre",
+				"wrench_table"
+			],
+			[
+				"geo",
+				"geometry_msgs"
+			],
+			[
+				"Frma",
+				"Frame_in"
+			],
+			[
+				"tau",
+				"tau_limit_avoidance"
+			],
+			[
+				"ros",
+				"ROS_INFO"
+			],
+			[
+				"reu",
+				"request"
+			],
+			[
+				"retr",
+				"return"
+			],
+			[
+				"pose",
+				"pose_publisher"
+			],
+			[
+				"V",
+				"VECT_cyl1"
+			],
+			[
+				"obj",
+				"objects_vec"
+			],
+			[
+				"transit",
+				"transition_map"
+			],
+			[
+				"state",
+				"state_machine"
+			],
+			[
+				"N",
+				"Ni_"
+			],
+			[
+				"Po",
+				"PotentialFieldControl"
+			],
+			[
+				"M",
+				"M_"
+			],
+			[
+				"res",
+				"restart"
+			],
+			[
+				"left_a",
+				"left_arm_7_link"
+			],
+			[
+				"right_arm",
+				"right_arm_7_link"
+			],
+			[
+				"left_",
+				"left_arm_7_link"
+			],
+			[
+				"INFO",
+				"info_hand"
+			],
+			[
+				"Ro",
+				"ROS_DEBUG"
+			],
+			[
+				"Joint",
+				"JointState"
+			],
+			[
+				"JOint",
+				"JointState"
+			],
+			[
+				"O",
+				"Overturn"
+			],
+			[
+				"ob",
+				"obstalcle"
+			],
+			[
+				"veco",
+				"Vector"
+			],
+			[
+				"retur",
+				"return"
+			],
+			[
+				"x_d",
+				"x_dot_d"
+			],
+			[
+				"v",
+				"v_limited"
+			],
+			[
+				"time",
+				"time_rep"
+			],
+			[
+				"per",
+				"period"
+			],
+			[
+				"Force",
+				"Force_repulsive"
+			],
+			[
+				"K",
+				"KDL"
+			],
+			[
+				"x_er",
+				"x_err_integral"
+			],
+			[
+				"pi",
+				"pitch_r"
+			],
+			[
+				"R",
+				"Rot_z"
+			],
+			[
+				"use",
+				"use_real"
+			],
+			[
+				"Set",
+				"SetToZero"
+			],
+			[
+				"pus",
+				"push_back"
+			],
+			[
+				"x_des",
+				"x_des_int"
+			],
+			[
+				"y_",
+				"y_l"
+			],
+			[
+				"hand",
+				"hand_pose_local"
+			],
+			[
+				"home",
+				"home_vito"
+			],
+			[
+				"left",
+				"left_arm"
+			],
+			[
+				"rigth",
+				"right_arm"
+			],
+			[
+				"t",
+				"true"
+			],
+			[
+				"flae",
+				"false"
+			],
+			[
+				"fir",
+				"first_step_"
+			],
+			[
+				"x_err_",
+				"x_error_initial_"
+			],
+			[
+				"to",
+				"toSec"
+			],
+			[
+				"x_de",
+				"x_des_"
+			],
+			[
+				"timer",
+				"timer_control_"
+			],
+			[
+				"co",
+				"coefficients"
+			],
+			[
+				"do",
+				"doDataExchange"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/distance_between_lines_node.cpp",
+			"settings":
+			{
+				"buffer_size": 1259,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "include/testmb/distance_between_lines.hpp",
+			"settings":
+			{
+				"buffer_size": 1957,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/manuelb/manuelb_ws/src/desperate_housewife/src/potential_field_control.cpp",
+			"settings":
+			{
+				"buffer_size": 31054,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/manuelb/manuelb_ws/src/desperate_housewife/config/desperate_home_trash_position.yaml",
+			"settings":
+			{
+				"buffer_size": 674,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/manuelb/manuelb_ws/src/testmb",
+		"/home/manuelb/manuelb_ws/src/testmb/src"
+	],
+	"file_history":
+	[
+		"/home/manuelb/manuelb_ws/src/testmb/CMakeLists.txt",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/CMakeLists.txt",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/potential_field_control.h",
+		"/home/manuelb/manuelb_ws/src/testmb/package.xml",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/package.xml",
+		"/home/manuelb/manuelb_ws/src/testmb/src/distance_between_lines.cpp",
+		"/home/manuelb/manuelb_ws/src/kuka-lwr/lwr_controllers/src/multi_task_priority_inverse_kinematics.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/fit_geometries_node.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/launch/run_vito.launch",
+		"/home/manuelb/manuelb_ws/src/testmb/launch/points_and_lines.launch",
+		"/home/manuelb/manuelb_ws/src/testmb/src/points_and_lines.cpp",
+		"/home/manuelb/.bashrc",
+		"/home/manuelb/myo.sh",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/place_hand_dany.hpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/Wait_msgs_.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/Wait_msg_state.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/HandPoseGenerator_state.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/SoftHand_close_state.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/Home_State_grafo.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/config/desperate_mind_param.yaml",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/Pos_trash_state.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/config/vito_controllers.yaml",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/Remove_obj_state.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/config/desperate_home_trash_position.yaml",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/HandPoseGenerator_state.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/desperate_mind_state_machine.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/Removed_state.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/state_machine.hpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/potential_field_control.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/README.md",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/config/desperate_demo_camera_params.yaml",
+		"/etc/ros/setup.sh",
+		"/home/manuelb/manuelb_ws/src/myo_kuka/include/teleoperation_controller.h",
+		"/home/manuelb/manuelb_ws/src/myo_kuka/launch/desperate_robot.launch",
+		"/home/manuelb/manuelb_ws/src/myo_kuka/src/teleoperation_controller.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/test_lines.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/Exit_state.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/Overtune_state.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/SoftHand_open_state.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/hand_pose_generator_node.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/launch/main_grafo.launch",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/home_state.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/config/hardware_interfaces.yaml",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/config/desperate_demo_hand_pose_params.yaml",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/config/desperate_trash_position.yaml",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/hand_pose_generator.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/config/desperate_home_position.yaml",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/overtune_state.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/desperate_mind.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/test_ball.cpp",
+		"/home/manuelb/manuelb_ws/utilites.txt",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/wait_msg_state.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/removed_state.h",
+		"/home/manuelb/Downloads/desperate_housewife/CMakeLists.txt",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/overtune_state.h",
+		"/home/manuelb/Downloads/desperate_housewife/launch/run_vito.launch",
+		"/home/manuelb/Downloads/desperate_housewife/src/Remove_obj_state.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/trash_position.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/grasp_state.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/msg/fittedGeometriesSingle.msg",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/msg/handPoseSingle.msg",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/msg/Error_msg.msg",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/launch/grid.launch",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/test_ball.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/ball_node.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/launch/ball.launch",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/test_send_obst.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/grid_node.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/launch/test_send_obst.launch",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/config/grid.yaml",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/ball_main.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/grid_main.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/grid.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/launch/simulated_positions.launch",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/test_ball.hpp",
+		"/home/manuelb/manuelb_ws/src/kuka-lwr/lwr_description/model/kuka_lwr.urdf.xacro",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/simulated_references.cpp",
+		"/home/manuelb/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/manuelb/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/potential_field_control_old.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/srv/startController.srv",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/test_parse_list_yaml.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/config/test_list.yaml",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/srv/start_controller.srv",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/srv/goPose.srv",
+		"/home/manuelb/manuelb_ws/src/kuka-lwr/lwr_controllers/include/lwr_controllers/KinematicChainControllerBase.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/utils/skew_symmetric.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/launch/load_home_pose.launch",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/test_parse_list_yaml,cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/config/home_pose_right_arm.yaml",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/launch/desperate_Vito_home.launch",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/desired_position.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/config/desired_position.yaml",
+		"/media/manuelb/kuka_files/roblog/roblog-git-repositories_042014/roblog-ros-pkg/common/stacks/velvet_gripper/gripper_interface/CMakeLists.txt",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/launch/desired_position.launch",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/desperate_mind.h",
+		"/home/manuelb/.cache/.fr-kT6Qvt/Cpp_Code/include/manipulatordosgdl.hpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/hand_pose_generator.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/config/desperate_robot_real_gains.yaml",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/potential_field_control_mb.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/Vito_home.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/test_pf.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/test_potential_field.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/robot/vito.urdf.xacro",
+		"/home/manuelb/Downloads/test_dany/desperate_housewife/launch/run_vito.launch",
+		"/home/manuelb/Downloads/test_dany/desperate_housewife/src/test_pf.cpp",
+		"/home/manuelb/.cache/.fr-iHXXLb/Cpp_Code/include/manipulatordosgdl.hpp",
+		"/home/manuelb/.cache/.fr-hL5bRx/Cpp_Code/include/manipulatordosgdl.hpp",
+		"/home/manuelb/.cache/.fr-VOI4Q5/Cpp_Code/src/CodeTranslated.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/transition.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/starting_state.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/starting_state.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/main_grafo.cpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/desperate_State_machine.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/state.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/Place_table_state.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/SoftHand_states_open.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/grasp_obj.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/SoftHand_states_close.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/include/SoftHand_states.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/home_robot.cpp",
+		"/home/manuelb/manuelb_ws/src/vito-robot/pisa-iit-soft-hand/soft_hand_ros_control/src/soft_hand_hw.cpp",
+		"/home/manuelb/manuelb_ws/src/kuka-lwr/lwr_hw/include/lwr_hw/lwr_hw_gazebo.hpp",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/worlds/simple_environment.world",
+		"/home/manuelb/manuelb_ws/src/vito-robot/pisa-iit-soft-hand/soft_hand_ros_control/include/soft_hand_ros_control/definitions.h",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/config/desperate_asus_head_vito_calib.yaml",
+		"/home/manuelb/manuelb_ws/src/desperate_housewife/src/fit_geometries.cpp",
+		"/home/manuelb/manuelb_ws/src/vito-robot/README.md"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"L2.P2 - L2.P1",
+			"tbc_n",
+			";",
+			"(v)",
+			"v",
+			"int",
+			"Line2",
+			"Line1",
+			"Line2",
+			"Line1",
+			"LineCollisions",
+			"cmake",
+			"build_depend",
+			"cmake_modules",
+			"eigen",
+			"points_and_lines",
+			"my_frame",
+			"testmb_node",
+			",",
+			"generateHandPose",
+			"right_hand_frame_",
+			"ObstacleReject",
+			"/home",
+			"trash_robot_pose",
+			"stop",
+			"DesperateDemo2",
+			"home/",
+			"tarsh_robot_right",
+			"home_",
+			"GetPartialDerivate",
+			"GetRepulsiveForce",
+			"ROS_INFO_STREAM",
+			"GetRepulsiveForce",
+			"Object_radius",
+			"kuka-platform",
+			"platform",
+			"131.114.31.84",
+			"hw_",
+			"robot_description",
+			"$(find xacro)",
+			"point1",
+			"Math.Sqrt",
+			"Math.Abs",
+			"delta41",
+			"line1.x1",
+			"line2.",
+			"line1.x2",
+			"public",
+			"Error_info_right",
+			"desired_hand_right_pose_topic_",
+			"desired_hand_right_pose_publisher_",
+			"desired_hand_right_pose_topic_",
+			"desired_hand_right_pose_publisher_",
+			"SendHomeRobot_right",
+			"error_topic_right",
+			"error_id",
+			"command_start",
+			"objects_info",
+			"/PotentialFieldControl",
+			"/trash_",
+			"trash_",
+			"right_hand_frame_",
+			"desired_hand_frame_",
+			"right_hand_frame_",
+			"desired_hand_frame_",
+			"Start",
+			"HOME",
+			"vito_anchor",
+			"trash_",
+			"right_",
+			"right_arm_4_link",
+			"right_",
+			"std::cou",
+			"Not Lying, full",
+			"ros_inf",
+			"cout",
+			"use_robot_sim",
+			"desired_hand_publisher_right",
+			"/home_",
+			"home_",
+			"home_robot_right",
+			"home_",
+			"desperate_home_position",
+			"HandPoseGeneratorCallback",
+			"geometries_topic_",
+			"command_start",
+			"error_interpolate",
+			"desired_hand_right_pose_publisher_",
+			"error_interpolate",
+			"right_start_controller_pub",
+			"desired_hand_right_pose_publisher_",
+			"SendHomeRobot_right",
+			"right_home_publisher_",
+			"desired_hand_right_pose_publisher_",
+			"desired_hand_publisher_right",
+			"desired_hand_right_pose",
+			"desired_hand_pose_right",
+			"error_interpolate",
+			"topic_desired_reference",
+			"command",
+			"vito_anchor",
+			"startControllerCallBack",
+			"command_start",
+			"startControllerCallBack",
+			"Error_th.",
+			"ROS_DEBUG",
+			"}\n",
+			"ROS_INFO",
+			"false",
+			"true",
+			"M(",
+			"\",",
+			" \"",
+			"\"enable_",
+			"nh_.param<bool>",
+			"nh_.param<bool>(\"",
+			"nh_.param<bool>",
+			"enable_interpolation",
+			"M(",
+			"GetRepulsiveForceTable",
+			"table",
+			"10.0",
+			"110.0",
+			"max",
+			"vel",
+			"VelocityLimit",
+			"vel_limit_robot",
+			"ROS_DEBUG"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/distance_between_lines_node.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								585,
+								585
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "include/testmb/distance_between_lines.hpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1957,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1382,
+								1382
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 444.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/manuelb/manuelb_ws/src/desperate_housewife/src/potential_field_control.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5242.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/manuelb/manuelb_ws/src/desperate_housewife/config/desperate_home_trash_position.yaml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.353755351851,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tetsmb.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 182.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

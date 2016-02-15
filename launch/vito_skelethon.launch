@@ -1,0 +1,10 @@
+<launch>
+  
+
+  <group ns="skelethon">
+    <node name="vito_skelethon" type="vito_skelethon_node" pkg="testmb" respawn="false" output="screen">
+      <rosparam command="load" file="$(find testmb)/config/vito_skelethon.yaml"/>
+    </node>
+
+  </group>
+</launch>
