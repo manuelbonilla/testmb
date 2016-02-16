@@ -8,7 +8,22 @@
 #include <visualization_msgs/Marker.h>
 #include <tuple>
 
-// std::vector<sensor_msgs::JointState::Ptr> joint_states_vec(list_brach_names.size());
+
+  struct PointSkelethon
+  {
+    LineCollisions::Point P;
+    std::string link_name;
+    PointSkelethon(){};
+    PointSkelethon(LineCollisions::Point Point_in, std::string string_in){P = Point_in; link_name = string_in;};
+  }point_skelethon;
+
+  struct LineSkelethon
+  {
+    PointSkelethon P1;
+    PointSkelethon P2;
+    LineSkelethon(){};
+    LineSkelethon(PointSkelethon P1_in, PointSkelethon P2_in){P1 = P1_in; P2 = P2_in;};
+  };
 
 std::vector<std::string> getSkelethonPoints(ros::NodeHandle &node, std::string branch)
 {
@@ -27,7 +42,7 @@ std::vector<std::string> getSkelethonPoints(ros::NodeHandle &node, std::string b
       return links_in_brach;
 }
 
-visualization_msgs::Marker plot_lines(std::vector<std::vector<LineCollisions::Line>> list_list_lines, std::string base,
+visualization_msgs::Marker plot_lines(std::vector<std::vector<LineSkelethon>> list_list_lines, std::string base,
                      float r = 1.0, float g = 1.0, float b = 1.0, int id = 0, int type = visualization_msgs::Marker::POINTS)
 {
   visualization_msgs::Marker line_list;
@@ -46,14 +61,14 @@ visualization_msgs::Marker plot_lines(std::vector<std::vector<LineCollisions::Li
     for (unsigned int j = 0; j < list_list_lines[i].size(); ++j)
     {
       geometry_msgs::Point p1;
-      p1.x = list_list_lines[i][j].P1[0];
-      p1.y = list_list_lines[i][j].P1[1];
-      p1.z = list_list_lines[i][j].P1[2];
+      p1.x = list_list_lines[i][j].P1.P[0];
+      p1.y = list_list_lines[i][j].P1.P[1];
+      p1.z = list_list_lines[i][j].P1.P[2];
 
       geometry_msgs::Point p2;
-      p2.x = list_list_lines[i][j].P2[0];
-      p2.y = list_list_lines[i][j].P2[1];
-      p2.z = list_list_lines[i][j].P2[2];
+      p2.x = list_list_lines[i][j].P2.P[0];
+      p2.y = list_list_lines[i][j].P2.P[1];
+      p2.z = list_list_lines[i][j].P2.P[2];
 
       line_list.points.push_back(p1);
       line_list.points.push_back(p2);
@@ -85,10 +100,6 @@ int main(int argc, char **argv)
   node.param<std::string>("base", base, "world");
   node.param<double>("threshold", threshold, .15);
 
-
-
-  std::vector<std::string> tip_names;
-
   ROS_INFO_STREAM("Using Base: " <<  base.c_str());
   ROS_INFO_STREAM("Threshold: " <<  threshold);
 
@@ -109,18 +120,15 @@ int main(int argc, char **argv)
 
   } 
  
-  // typedef std::tuple <LineCollisions::Line, LineCollisions::Line, LineCollisions::Line > tuple_lines;
-  // std::vector<tuple_lines> lines_and _collisions;
-
   while (node.ok())
   {
     tf::StampedTransform trans, trans2;
-    std::vector<std::vector<LineCollisions::Line>> List_lines_in_all_chains, lines_and_collisions_multiple;
-    std::vector<LineCollisions::Line> lines_and_collisions;
+    std::vector<std::vector<LineSkelethon>> List_lines_in_all_chains, lines_and_collisions_multiple;
+    std::vector<LineSkelethon> lines_and_collisions;
 
     for (unsigned int i = 0; i < links_all_branch.size(); ++i)
     {
-      std::vector<LineCollisions::Line> list_lines_one_chain;
+      std::vector<LineSkelethon> list_lines_one_chain;
       for (unsigned int j = 0; j < links_all_branch[i].size() -1 ; ++j)
       {
         try
@@ -131,9 +139,9 @@ int main(int argc, char **argv)
           tf_listener.lookupTransform( base , links_all_branch[i][j+1], ros::Time(0), trans2);
           tf::Vector3 trasnX = trans.getOrigin();
           tf::Vector3 trasnX2 = trans2.getOrigin();
-          LineCollisions::Point Point1( trasnX.getX(), trasnX.getY(), trasnX.getZ() );
-          LineCollisions::Point Point2( trasnX2.getX(), trasnX2.getY(), trasnX2.getZ() );
-          list_lines_one_chain.push_back( LineCollisions::Line( Point1, Point2) );        
+          PointSkelethon Point1( LineCollisions::Point(trasnX.getX(), trasnX.getY(), trasnX.getZ()), links_all_branch[i][j] );
+          PointSkelethon Point2( LineCollisions::Point(trasnX2.getX(), trasnX2.getY(), trasnX2.getZ()), links_all_branch[i][j] );
+          list_lines_one_chain.push_back( LineSkelethon( Point1, Point2) );        
         }
         catch(tf::TransformException& ex)
         {
@@ -151,26 +159,28 @@ int main(int argc, char **argv)
         {
           for (unsigned int l = 0; l < List_lines_in_all_chains[j].size(); ++l)
           {
-            LineCollisions::Line collision_line = LineCollisionsLocal.getClosestPoints( List_lines_in_all_chains[i][k], List_lines_in_all_chains[j][l] );
-            if (collision_line.norm <= .15){
-              lines_and_collisions.push_back( collision_line ) ;
+            LineCollisions::Line L1(List_lines_in_all_chains[i][k].P1.P, List_lines_in_all_chains[i][k].P2.P);
+            LineCollisions::Line L2(List_lines_in_all_chains[j][l].P1.P, List_lines_in_all_chains[j][l].P2.P);
+            LineCollisions::Line collision_line = LineCollisionsLocal.getClosestPoints( L1, L2 );
+            if (collision_line.norm <= .15)
+            {
+              lines_and_collisions.push_back( LineSkelethon( PointSkelethon( collision_line.P1, List_lines_in_all_chains[i][k].P1.link_name ),
+                                                             PointSkelethon( collision_line.P2, List_lines_in_all_chains[j][l].P1.link_name ) )) ;
+              ROS_INFO_STREAM("Collision in Point:" << lines_and_collisions.back().P1.P.transpose() << " of link " << lines_and_collisions.back().P1.link_name);
+              ROS_INFO_STREAM("Collision in Point:" << lines_and_collisions.back().P2.P.transpose() << " of link " << lines_and_collisions.back().P2.link_name);
             }
           }
         }
       }
     }
 
-
-    // ROS_INFO_STREAM("Num lines for collision " << lines_and_collisions.size());
-
-    list_pub.publish(plot_lines(List_lines_in_all_chains, base, 1.0, 0.0, 0.0, 0, visualization_msgs::Marker::LINE_LIST)); 
+    // list_pub.publish(plot_lines(List_lines_in_all_chains, base, 1.0, 0.0, 0.0, 0, visualization_msgs::Marker::LINE_LIST)); 
     point_pub.publish(plot_lines(List_lines_in_all_chains, base, 0.0, 1.0, 0.0, 1, visualization_msgs::Marker::POINTS)); 
     
-    std::vector<std::vector<LineCollisions::Line>> lis;
+    std::vector<std::vector<LineSkelethon>> lis;
     lis.push_back(lines_and_collisions);
     collisions_lines_pub.publish(plot_lines(lis, base, 0.0, 0.0, 1.0, 2, visualization_msgs::Marker::LINE_LIST));
     collisions_points_pub.publish(plot_lines(lis, base, 1.0, 0.0, 1.0, 3, visualization_msgs::Marker::POINTS));
-    // tf_listener.lookupTransform(base, (which+arm_names[i]), ros::Time(0), trans);
 
     ros::spinOnce(); 
     rate.sleep();
