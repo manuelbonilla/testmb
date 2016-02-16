@@ -1,8 +1,9 @@
 base: world
+threshold: 20
 left_arm:
   end_effector: left_hand_palm_link
-  links: ['left_arm_base_link', 'left_arm_2_link', 'left_arm_4_link', 'left_arm_6_link']
+  links: ['left_arm_base_link', 'left_arm_2_link', 'left_arm_4_link', 'left_arm_6_link', 'left_hand_palm_link']
 
 right_arm:
   end_effector: right_hand_palm_link
-  links: ['right_arm_base_link', 'right_arm_2_link', 'right_arm_4_link', 'right_arm_6_link']
+  links: ['right_arm_base_link', 'right_arm_2_link', 'right_arm_4_link', 'right_arm_6_link', 'right_hand_palm_link']

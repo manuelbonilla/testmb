@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   kdl_acc_solver
   kdl_parser
   kdl_wrapper
+  tf_conversions
 )
 
 find_package(Eigen REQUIRED )
@@ -111,7 +112,7 @@ find_library(KDL_LIBRARY REQUIRED NAMES orocos-kdl HINTS ${orocos_kdl_LIBRARY_DI
 
 catkin_package(
   DEPENDS orocos_kdl
-  CATKIN_DEPENDS kdl_acc_solver kdl_parser kdl_wrapper
+  CATKIN_DEPENDS kdl_acc_solver kdl_parser kdl_wrapper tf_conversions
   INCLUDE_DIRS include
   # LIBRARIES ${PROJECT_NAME} 
 )
@@ -122,7 +123,7 @@ catkin_package(
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
-include_directories(include ${catkin_INCLUDE_DIRS} ${Eigen_INCLUDE_DIRS} ${orocos_kdl_LIBRARY_DIRS})
+include_directories(include ${catkin_INCLUDE_DIRS} ${Boost_INCLUDE_DIR} ${Eigen_INCLUDE_DIRS} ${orocos_kdl_LIBRARY_DIRS})
 
 ## Declare a C++ library
 # add_library(testmb

@@ -60,7 +60,7 @@ LineCollisions::Line LineCollisions::getClosestPoints(LineCollisions::
  
     if (D < EPS) // Lines are parallel
     {
-        std::cout << "Lines are parallel" << std::endl;
+        // std::cout << "Lines are parallel" << std::endl;
         sN = 0.0;
         sD = 1.0;
         tN = e;
